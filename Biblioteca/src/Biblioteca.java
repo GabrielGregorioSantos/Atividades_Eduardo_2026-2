@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public abstract class Biblioteca extends Livro {
+public class Biblioteca {
     private ArrayList<Livro> livros;
 
     public Biblioteca() {

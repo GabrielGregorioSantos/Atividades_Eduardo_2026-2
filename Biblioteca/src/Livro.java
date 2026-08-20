@@ -15,6 +15,14 @@ public abstract class Livro {
     public void setNumeroDePaginas(int numeroDePaginas){
         this.numeroDePaginas = numeroDePaginas;
     }
+    public void setTitulo(String titulo){
+        this.titulo = titulo;
+    }
+
+    public void setAutor(String autor){
+        this.autor = autor;
+    }
+
 
     public abstract void descricao();
 
